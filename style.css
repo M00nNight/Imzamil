@@ -161,7 +161,7 @@ nav [class*="fa-"]:hover {
   color: var(--magenta);
 }
 
-.button {
+/* .button {
   background-color: var(--magenta);
   color: white;
   padding: 0.5rem;
@@ -173,6 +173,30 @@ nav [class*="fa-"]:hover {
 .button:hover {
   color: white;
   background-color: var(--hotmag);
+} */
+.button {
+  display: inline-block;
+  text-decoration: none;
+  color: #f7f8fa;
+  background-color: #e310cb;
+  border-radius: 0.25rem;
+}
+.button:hover span {
+  color: white;
+  background-color: #ff17e4;
+}
+.button:active span {
+  translate: none;
+}
+.button span {
+  display: inherit;
+  border-radius: inherit;
+  background-color: #ff17e4;
+  padding: 1rem 2rem;
+  translate: 0.25rem -0.25rem;
+  border: 2px solid #612a79;
+  transition: translate 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    background-color 250ms;
 }
 
 /* projects section */
