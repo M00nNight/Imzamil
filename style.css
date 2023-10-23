@@ -79,7 +79,7 @@ img {
   background-color: var(--dkblue);
 }
 
-.gradient {
+.gradient1 {
   background: linear-gradient(
     90deg,
     rgba(255, 23, 228, 1) 0%,
