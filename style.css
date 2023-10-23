@@ -182,7 +182,7 @@ nav [class*="fa-"]:hover {
   border-radius: 0.25rem;
 }
 .button:hover span {
-  color: white;
+  color: var(--white);
   background-color: #ff17e4;
 }
 .button:active span {
