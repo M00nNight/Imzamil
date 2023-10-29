@@ -30,6 +30,8 @@ body {
   background-color: var(--black);
   color: var(--white);
   font-size: var(--font-size);
+  background-image: url("./project-img/oooscillate.svg");
+  background-repeat: no-repeat;
 }
 
 h1,
@@ -51,25 +53,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0);
-  transition: background 0.5s ease;
-}
-.container:hover .overlay {
-  display: block;
-  background: rgba(0, 0, 0, 0.3);
-}
-.container {
-  position: relative;
-  margin-top: 50px;
-  width: 500px;
-  height: 300px;
-}
+
 /* background color divs */
 
 .section-plum {
@@ -79,7 +63,7 @@ img {
   background-color: var(--dkblue);
 }
 
-.gradient1 {
+.gradient {
   background: linear-gradient(
     90deg,
     rgba(255, 23, 228, 1) 0%,
