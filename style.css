@@ -137,11 +137,9 @@ img {
   0% {
     filter: drop-shadow(0 0 10px #86fbfb);
   }
-  50% {
-    filter: drop-shadow(0 0 20px #86fbfb);
-  }
+
   100% {
-    filter: drop-shadow(0 0 10px #86fbfb);
+    filter: drop-shadow(0 0 15px #86fbfb);
   }
 }
 
