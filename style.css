@@ -101,6 +101,49 @@ img {
 #intro h2 {
   font-size: 4rem;
 }
+/* about me  */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem 1rem 10rem 1rem;
+  padding-bottom: 10rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left-side {
+  flex: 1;
+  padding: 20px;
+}
+
+.right-side {
+  flex: 2;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.left-side img {
+  filter: drop-shadow(0 0 10px #86fbfb);
+  animation: glow 2s alternate infinite;
+  transform: scaleX(-1);
+}
+
+@keyframes glow {
+  0% {
+    filter: drop-shadow(0 0 10px #86fbfb);
+  }
+  50% {
+    filter: drop-shadow(0 0 20px #86fbfb);
+  }
+  100% {
+    filter: drop-shadow(0 0 10px #86fbfb);
+  }
+}
 
 /* contact section */
 
